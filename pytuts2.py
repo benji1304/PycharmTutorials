@@ -1,24 +1,26 @@
-# Create a command line calculator
-# vars num1 and num2 then an if statement for the operator
+# example of a loop
 
-# take user input
-num1, operator, num2 = input("Enter calculation: ").split()
+# for i in [2,4,5,6,7]:#using actual values
+#     print("i = ",i)
+#
+# for i in range(10):#cycles through the range, from 0 for 10 values not to 10!
+#     print("i = ", i)
+#
+#
+# for i in range(2,10):#cycles through the range, from 2 for 10 values not to 10!
+#     print("i = ", i)
+#
 
-# convert num1 num2 to ints
-num1 = int(num1)
-num2 = int(num2)
+# using modulus
+# i = 2
+# print((i%2==0))
 
-# setup calculator
-if operator == "+":
-    print("{} + {} = {}".format(num1, num2, num1 + num2))
-elif operator == "-":
-    print("{} - {} = {}".format(num1, num2, num1 - num2))
-elif operator == "*":
-    print("{} * {} = {}".format(num1, num2, num1 * num2))
-elif operator == "/":
-    print("{} / {} = {}".format(num1, num2, num1 / num2))
-elif operator == "%":
-    print("{} % {} = {}".format(num1, num2, num1 % num2))
-else:
-    print("Use a proper operator next time")
+# Use for loop to cycle list from 1 to 21
+for i in range(1,22):
+    if (i%2!=0):
+        print(i)
 
+# Use modulus to check for NOT equal to 0
+
+
+# Print the Odds
