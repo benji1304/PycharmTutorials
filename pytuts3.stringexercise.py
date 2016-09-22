@@ -27,3 +27,6 @@ for i in range(0, len(secret_message)-1, 2): # cycle through str, from start to 
     norm_string += chr(int(char_code))
 
 print("\nOriginal message is:", orig_message, end="")
+
+
+# add functionality to allow for lower case, requires 1 addition and 1 subtraction
